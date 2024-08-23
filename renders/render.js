@@ -17,6 +17,7 @@
     p_course.textContent=`Curso: ${course}`;
 
 
+    figure.classList.add('figure')
     figure.appendChild(h1_Name);
     figure.appendChild(h2_id);
     figure.appendChild(p_age);

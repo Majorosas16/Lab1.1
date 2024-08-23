@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diWarp{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+}
+
+.diWarp3{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text{
+    margin: 1rem;
+    color: rgb(34, 129, 136);
+}
+
+.figure{
+width: 400px;
+height: 200px;
+background-color: white;
+box-shadow: inset 1px -2px 21px 5px rgba(0,0,0,0.19);
+margin: 0.5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+border-radius: 2rem;
+}
