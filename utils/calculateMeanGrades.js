@@ -3,5 +3,6 @@ export const calculateMeanGrade = (students) =>  {
     students.forEach(student => {
         resultGrade = resultGrade + student.grade
     });
+
     return resultGrade/students.length
 };
